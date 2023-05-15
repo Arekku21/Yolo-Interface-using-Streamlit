@@ -7,9 +7,9 @@ import cv2
 import os
 import time
 
-st.set_page_config(layout="wide")
+# st.set_page_config(layout="wide")
 
-cfg_model_path = 'models/yolov5s.pt'
+cfg_model_path = 'models/fall_detection_custom17.pt'
 model = None
 confidence = .25
 
